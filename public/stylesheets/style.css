@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  
+  background-color: #00B7FF;
 }
 
 a {
@@ -12,17 +12,78 @@ a {
 
 .block1 a{
   text-decoration: none;
+  color: red;
+  font-size: 25px;
 }
 
 .container{
-  max-width: 1440px;
+  width: 1600px;
   padding: 20px;
   margin: 0 auto;
-  background-color: aqua;
   text-align: center;
   align-items: center ;
 }
 
 .block1{
+  width: 100%;
  text-align:center;
+}
+
+.main_page{
+  text-align:center ;
+}
+
+.main_page a{
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.main{
+  text-align: center;
+}
+
+.in_main a{
+  color: gold;
+  text-decoration: none;
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.in_main a:hover{
+  color: green;
+}
+
+.header{
+  text-align: center;
+}
+
+.header h2{
+  color: greenyellow;
+}
+
+.auto input{
+  width: 200px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+  background-image:linear-gradient(22deg, green,gold,blue) ;
+ 
+}
+
+.submit{
+  margin-top: 25px;
+}
+
+.submit input{
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  background-image: linear-gradient(45deg, red,pink,purple);
+}
+
+.auto{
+  width: 400px;
+  border: gold solid 5px;
 }
